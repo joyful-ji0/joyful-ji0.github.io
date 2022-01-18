@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "dirt"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+locale                   : "ko-KR"
+title                    : "즐거운 짹짹이네"
+title_separator          : "|"
+subtitle                 : "늘 행복하고 지혜로운 사람이 되려면 자주 변해야 한다. | They must often change who would be constant in happiness or wisdom."
 name                     : "joyful-ji0"
-description              : "An amazing website."
+description              : "개발자/엔지니어가 되고자 공부하는 것을 나누는 블로그."
 url                      : 'https://joyful-ji0.github.io'
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,11 +102,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "**joyful-ji0**"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "| 병아리 개발자 | 지영 |"
+  location         : "Anywhere"
+  email            : "joy.cc6000@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

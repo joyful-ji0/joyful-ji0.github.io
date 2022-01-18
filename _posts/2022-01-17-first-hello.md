@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Hello World! 드디어 블로그 개설"
+author_profile: false
 ---
 
 ## 안녕하세요!

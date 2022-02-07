@@ -20,7 +20,7 @@ git을 공부해야 하는데 정보가 너무 많아서 정신 못 차리던 �
     
     전부 기본값으로 설치 완료하기 > git bash 설치된 것 확인 > 열어서 다음 코드 입력해서 버전 확인
     
-    ```basic
+    ```bash
     $ git --version
     ```
     
@@ -36,7 +36,7 @@ git을 공부해야 하는데 정보가 너무 많아서 정신 못 차리던 �
     
     Git Bash 프로그램 or CMD 프로그램 실행하여 다음과 같이 글로벌 사용자 등록, github 계정과는 별개지만 추후에 협업시에 누가 수정한건지 등의 기록을 남기기 위해 등록
     
-    ```basic
+    ```bash
     $ git config --global user.name "사용자 영문이름"
     $ git config --global user.email "사용자 이메일 주소"
     $ git config --list // q 버튼으로 원래 화면으로 돌아오기
@@ -68,7 +68,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
 
 - Reposiroty 초기화 (git init)
     
-    ```basic
+    ```bash
     $ git init  
     
     Initialized empty Git repository in C:/Users/user/sample-repo/.git/
@@ -78,7 +78,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
     
 - 파일의 생성  ex) [README.md](http://README.md) 파일 생성
     
-    ```basic
+    ```bash
     user@LAPTOP-GE8TFFGF MINGW64 ~/sample-repo (main)
     $ echo 'Hello, Git!' > README.md
     
@@ -100,7 +100,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
     
     다음과 같이 확인할 수 있다. 
     
-    ```basic
+    ```bash
     $ git status
     On branch main
     
@@ -117,7 +117,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
 
 - 파일 등록 (git add) - commit 직전에 필수적!
     
-    ```basic
+    ```bash
     $ git add .  OR  add [파일명]  
     
     warning: LF will be replaced by CRLF in README.md.
@@ -130,7 +130,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
         
         초록색은 add 된 것 빨간색은 add 안 된 것
         
-        ```basic
+        ```bash
         $ git status
         On branch main
         
@@ -145,7 +145,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
 
 - working/staging 변경내용 비교 (git diff)
     
-    ```basic
+    ```bash
     $ git diff 
     
     warning: LF will be replaced by CRLF in README.md.
@@ -164,7 +164,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
     
 - Commit, repository에 반영시킴 (git commit)
     
-    ```basic
+    ```bash
     $ git commit   
     OR 
     $ git commit -m "원하는 제목 like : FIRST COMMIT"  
@@ -180,7 +180,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
     - 오류 하나가 고쳐지면 그 내용에 대한 commit만 진행하는 것이 더 의미있음 + 알맞은 제목을 달아주는 것도 필수적
     - commit 한 이후에 status 확인하면 다음과 같은 메세지 확인 가능
         
-        ```basic
+        ```bash
         $ git status
         
         On branch main
@@ -190,7 +190,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
 
 - 커밋 이력 확인하기 (git log)
     
-    ```basic
+    ```bash
     $ git log
     
     commit 3df91849bb6869be61ee0650bc73d56f945b7da9 (HEAD -> main)
@@ -213,7 +213,7 @@ VScode에서 해당 폴더로 접근, 하단에 Bash terminal 열기
     
     staging 취소, working 까지도 전체 변경 취소, 혹은 특정 commit 상태로 되돌리기
     
-    ```basic
+    ```bash
     $ git reset
     
     Unstaged changes after reset:
@@ -242,7 +242,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
     
 - 연결하기
     
-    ```basic
+    ```bash
     $ git remote add origin https://github.com/joyful-ji0/sample-repo.git
     ```
     
@@ -253,7 +253,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
 
 - 연결 확인하기
     
-    ```basic
+    ```bash
     $ git remote -v
     
     origin  https://github.com/joyful-ji0/sample-repo.git (fetch)
@@ -267,7 +267,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
 
 - 원격 서버 관리
     
-    ```basic
+    ```bash
     $ git remote rename [변경전별칭] [변경후별칭]  // 이름 바꾸기
     $ git remote rm [타겟별칭] // 원격서버 연결 삭제
     ```
@@ -281,7 +281,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
 
 - branch 확인 우선
     
-    ```basic
+    ```bash
     $ git branch -M main
     ```
     
@@ -289,7 +289,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
     
     github에 업로드 하는 것 
     
-    ```basic
+    ```bash
     $ git add .  
     $ git status  
     $ git commit -m "commit message"  
@@ -317,7 +317,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
     
     아래 코드는 앞서 업로드한 원격 저장소를 다른 이름의 로컬 저장소로 복제하는 용도
     
-    ```basic
+    ```bash
     $ cd [메인폴더]
     $ mkdir [복제할 새 폴더명]
     $ cd [방금 만든 폴더]     -- clone 복제할 폴더에 위치한 상태에서 
@@ -334,7 +334,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
     
     이 과정에서 fetch - 정보 업데이트, merge - 정보통합 : 두가지 조작 수행
     
-    ```basic
+    ```bash
     $ git pull
     
     remote: Enumerating objects: 4, done.
@@ -370,7 +370,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
 
 - Branch 확인
     
-    ```basic
+    ```bash
     $ git branch
     
     * main
@@ -380,7 +380,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
 
 - Branch 생성
     
-    ```basic
+    ```bash
     $ git branch [branch명 - dev]
     
     $ git branch
@@ -392,7 +392,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
     
 - Branch 전환
     
-    ```basic
+    ```bash
     $ git checkout [branch명 - dev]
     
     $ git checkout -b feature1
@@ -406,7 +406,7 @@ commit한 내용을 다른 사람들과 공유하기 위해서는 github에 보�
     
 - commit 후 반영하여 원격 repository에 보내기
     
-    ```basic
+    ```bash
     $ git push -u origin dev 
     ```
     

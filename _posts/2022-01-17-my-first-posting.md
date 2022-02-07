@@ -16,13 +16,13 @@ author_profile: false
 
 다음은 포스팅 할 때, 혹은 포스팅 실패하거나 원하는 포맷으로 올라가지 않았을 때 (나처럼) 해결을 위해 수정하는 화면이다.
 
-<img src="..\images\first-1.png" width="100%" title="수정화면" />
+<img src="..\images\220117\first-1.png" width="100%" title="수정화면" />
 
 
 ## 다음에 표시된 내용들을 주의하면 실패할 확률이 줄어든다.
 (나는 무려 2, 3, 4, 5, 6번 항목에서 하나씩 문제가 있었다. 🤣🤣🤣)
 
-<img src="..\images\first-2.png" width="100%" title="수정화면 표시" />
+<img src="..\images\220117\first-2.png" width="100%" title="수정화면 표시" />
 
 1. 주소 생성할 때 내 아이디와 주소에 적인 아이디에 차이가 없는가
 2. 경로 작성시에 _posts (언더바 + 포스트스!! S!!!) 로 작성했는가
@@ -48,13 +48,13 @@ author_profile: false
 
 여기서 실시간으로 진행상황을 볼 수 있어서 로딩 끝나는 걸 확인하고 블로그 화면에서 새로고침하면 조바심이 덜 난다.
 
-<img src="..\images\first-3.png" width="100%" title="Actions" />
+<img src="..\images\220117\first-3.png" width="100%" title="Actions" />
 
 이렇게 실행 실패한 경우에는 딱 티가난다. 
 
 클릭하면 자세한 내용을 확인할 수 있다.
 
-<img src="..\images\first-4.png" width="100%" title="Actions_detail" />
+<img src="..\images\220117\first-4.png" width="100%" title="Actions_detail" />
 
 이 경우에는 Environment 문제라고 판단되어 [_config.yml](https://github.com/joyful-ji0/joyful-ji0.github.io/blob/master/_config.yml) 파일을 다시 수정했다.
 
